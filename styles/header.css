@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  height: 55px;
+  border: 1px solid rgb(221, 221, 221);
+  justify-content: space-between;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu {
+  height: 24px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.yotube-logo {
+  height: 25px;
+}
+.middle-section{
+  display: flex;
+  align-items:center;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+.search-bar{
+  flex: 1;
+  height: 36px;
+  width: 0;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  padding-left: 10px;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0 , 0, 0, 0.05) ;
+}
+.search-bar::placeholder{
+  font-size: 16px;
+}
+.search-button {
+  height: 40px;
+  width: 66px;
+  margin-left: -1px;
+  margin-right: 10px;
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgb(192, 192, 192);
+}
+.search-icon{
+  height: 25px;
+}

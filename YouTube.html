@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <title>YouTube Clone</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<div class="header">
+  <div class="left-section">
+    <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+    <img class="youtube-logo" src="icons/youtube-logo.svg">
+  </div>
+  <div class="middle-section">
+    <input class="search-bar" type="text" placeholder="Search">
+    <button class="search-button">
+      <img class="search-icon" src="icons/search.svg">
+      <div class="tooltip">Search</div>
+    </button>
+    <button class="voice-search-button">
+      <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+      <div class="tooltip">Search with your voice</div>
+    </button>
+  </div>
+</div>
+<div class="video-grid">
+  <div class="video-preview">
+    <div class="thumbnail-row">
+      <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+      </a>
+      <div class="video-time">14:20</div>
+    </div>
+    <div class="video-info">
+      <div class="channel-image">
+        <div class="profile-image-container">
+          <a href="https://www.youtube.com/c/mkbhd">
+            <img class="channel-image" src="channel-pic/channel-1.jpeg">
+          </a>
+          <div class="channel-tooltip">
+              <img class="channel-tooltip-image" src="channel-pic/channel-1.jpeg">
+              <div>
+                <div class="channel-tooltip-name">Marques Brownlee</div>
+                <div class="channel-tooltip-stats">15M subscribers</div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-info-column">
+        <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          <div class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </div>
+        </a>
+        <div class="video-channel-name">
+          Marques Brownlee
+        </div>
+        <div class="video-stats">
+          3.4M views • 6 months ago
+      </div>
+    </div>
+  </div>
+</div>
+</div>
